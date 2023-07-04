@@ -5,7 +5,7 @@ Description: To extract the data from public website and create a meaningful CSv
 
 
 
-How to run this project :   ( You can see the ref video uploaded for complete process of installing and executing the process in uipath)
+How to run this project ( You can see the ref video uploaded for complete process of installing and executing the process in uipath)
 ========================
 - Download the Uipath Community edition from here https://download.uipath.com/UiPathStudioCommunity.msi
 - Install Uipath and enable the extension as shown in the video.

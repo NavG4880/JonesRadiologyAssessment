@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1162.4,2625.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1162.4,2630.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>WebPageDataExtraction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -122,14 +122,14 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This will perform necessary steps of the web page to extract the useful information in a file." DisplayName="WebPageDataExtraction" sap:VirtualizedContainerService.HintSize="1172.8,2560.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This will perform necessary steps of the web page to extract the useful information in a file." DisplayName="WebPageDataExtraction" sap:VirtualizedContainerService.HintSize="1172.8,2565.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="1110.4,2417.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="1110.4,2422.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Today date to be used to create the file name." Name="TodayDate" />
         <Variable x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Start date to be used on the website to extract the data." Name="StDate" />
@@ -192,21 +192,21 @@
           </scg:List>
         </ui:MultipleAssign.AssignOperations>
       </ui:MultipleAssign>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Medicare Australia - Statistics - Medicare Benefits Schedule (MBS) Group Statist" sap:VirtualizedContainerService.HintSize="1048,1400.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Medicare Australia - Statistics - Medicare Benefits Schedule (MBS) Group Statist" sap:VirtualizedContainerService.HintSize="1048,1405.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1014.4,1184" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1014.4,1188.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState sap2010:Annotation.AnnotationText="This will check the result was successful or not.&#xD;&#xA;" DisplayName="Check App State 'I1 Ultrasound'" sap:VirtualizedContainerService.HintSize="952,1072" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Timeout="10" Version="V3">
+              <uix:NCheckState sap2010:Annotation.AnnotationText="This will check the result was successful or not.&#xA;" DisplayName="Check App State 'I1 Ultrasound'" sap:VirtualizedContainerService.HintSize="952,1073.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Timeout="10" Version="V3">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,809.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,811.2" sap2010:WorkflowViewState.IdRef="Sequence_13">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -237,7 +237,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NMouseScroll>
-                    <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Click on Download Excel button to extract the data in a file.&#xD;&#xA;" ClickType="Single" DisplayName="Click 'Download to Excel'" sap:VirtualizedContainerService.HintSize="387.2,128.8" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Version="V3">
+                    <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Click on Download Excel button to extract the data in a file.&#xA;" ClickType="Single" DisplayName="Click 'Download to Excel'" sap:VirtualizedContainerService.HintSize="387.2,128.8" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="664748c0-f5b0-45d8-b8b7-386c0b0ca6e0" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="http://medicarestatistics.humanservices.gov.au/statistics/do.jsp?_PROGRAM=%2Fstatistics%2Fmbs_group_standard_report&amp;DRILL=on&amp;GROUP=5&amp;VAR=services&amp;STAT=count&amp;RPT_FMT=by+state&amp;PTYPE=finyear&amp;START_DT=202107&amp;END_DT=202206" CvElementArea="55, 379, 145, 27" CvTextArea="58, 385, 137, 15" CvTextArgument="Download to Excel" CvType="Button" DesignTimeRectangle="57, 688, 142, 24" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Download to Excel'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='' aaname='Download to Excel' check:text='Download to Excel' /&gt;" Guid="10722e05-ac19-4fcf-9d3d-f7ad9eb80864" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJIAAAAcCAYAAACKweYmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN1SURBVHhe7Zs9boIxDIa5IGOvAkM5QyeYWLhAZyQkRpbeoBI7I0dIkzhO7Nj5fiCiDI70qG0SO/55E3WAhbNho8MwIdnoMrKQbreb2+12brVaGcYoQStBMziykMLC+Xx29/vdMEYJWgmawZGFFFSmGRhGi6AZHCYk42FMSEYXhoV0Pbrlx6dbqHy5/VU6/C9+v798TAd3Utb6c3X7ta/B+uh+1fVA2NOjRukstQfIq/JGftzGn7v8vua5SUKiBgg07tNtLnz+v3g7IV0OPp6OQhoU7avpKKTAaRtuw3u8TCakV9JZSPq6fIrLqwUBLLY/yn4ugiKMtO5t8BUEeJM0IfH94APXmnvU5qe4ke1xsLmD50aBkbVRgUwXEp7L+oH/njD7Kh9xAYd6GOgtJCGM9DcNOhUOfcRXjK5joqyBRTw0qRIHzpUC1EKSr6WMrbYpdmQO4yNigD3cl0B5kbDRpSkyD0naM3QWgeet+G/mg3vaPawfhI5C4klqjQmwQOsCh7/XB7fxfvI56VwIvFHIyg87m9kTWEFkMSKVrRBWZEJz6zxHzhutsd/TgtsWIZyEcFM+Im6wCfugjvwCZLtKbPTcrkLSg/SwovIgoo2/Hfiz7Meg0xnkBkmflZBEE5FGMz1QqAIUv3E27p8jpJa4B85g60Nn1cSzIQ/u94mzWD7dhQQOIbCpQRTxoE0sbtwDQmCiaiWfioWNoUJq3aq6ALDP+46k/azhND/qJ9nOEVIVb+GJ5jZJNqIG7XwAtGuB/noLqVpv3tKqqLnp0Z42MPwOQZaCzxeSaGKGFKCVW5oHv+0mv/OLxC4Is5sopOY60llIsZjYPA8kIBtY70PRbLb0VkMSyzURBJmfJaRW3NSmskewCTgvYo9MaK4Qc6OJIzWeLaTkL56j+NYvQKkxqyOBz3cUUl1wIBWLBpoaxn2kwMNeUlhoGp97SEge8KU0EmOjBU82eY741QSAuQ82N/mi9ZE1wzrIxhXmCEn6gzPlyyjzwT1KD4UOHhRSLJqglTwRSUS+UAFZVI/6SjwmpDJXYhEXQuQX7KVwcnERX+S9erMppA50X4o7U+clqOupE+qAF1Gtn3apMnUv5Znc51whGcZETEhGF0xIRhdMSEYXTEhGF1Qh2Yf/jTk0P/xvX0cy5hC0on4dyYaNZ4YJyUaH4dwfgwTY4qtqOI0AAAAASUVORK5CYII=" InformativeScreenshot="dd858abb0b8b929e0d02c6802d78c2f5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Medicare Australia - Statistics - Medicare Benefits Schedule (MBS) Group Statistics' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -264,7 +264,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Delay>
-                    <uix:NApplicationCard sap2010:Annotation.AnnotationText="This will use the pop-up window of save as and input the file name and location to save the extracted data.&#xD;&#xA;" AttachMode="ByInstance" DisplayName="Use Application: Save As" sap:VirtualizedContainerService.HintSize="387.2,144.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="68c1d0f9-3094-47b9-affe-cde0b1af5a27" Version="V2">
+                    <uix:NApplicationCard sap2010:Annotation.AnnotationText="This will use the pop-up window of save as and input the file name and location to save the extracted data.&#xA;" AttachMode="ByInstance" DisplayName="Use Application: Save As" sap:VirtualizedContainerService.HintSize="387.2,144.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="68c1d0f9-3094-47b9-affe-cde0b1af5a27" Version="V2">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
@@ -356,7 +356,7 @@
                   </Sequence>
                 </uix:NCheckState.IfExists>
                 <uix:NCheckState.IfNotExists>
-                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,204" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,205.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -368,7 +368,7 @@
                 <uix:NCheckState.Target>
                   <uix:TargetAnchorable BrowserURL="http://medicarestatistics.humanservices.gov.au/statistics/do.jsp?_PROGRAM=%2Fstatistics%2Fmbs_group_standard_report&amp;DRILL=on&amp;GROUP=5&amp;VAR=services&amp;STAT=count&amp;RPT_FMT=by+state&amp;PTYPE=finyear&amp;START_DT=202207&amp;END_DT=202307" CvTextArgument="I1 Ultrasound" CvType="Text" DesignTimeRectangle="57, 479, 289, 224" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'I1 Ultrasound'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='5' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='l t rowhd' aaname=' I1 Ultrasound                                                                ' check:innerText='I1 Ultrasound' /&gt;" Guid="e52fa8cf-d1f1-4622-95f9-5f5770a731bf" ImageBase64="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" InformativeScreenshot="7919a6d68c4a6797b3de16a0d2d4b62f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Medicare Australia - Statistics - Medicare Benefits Schedule (MBS) Group Statistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CvTextArgument="Group" CvType="Text" DesignTimeRectangle="57, 451, 289, 28" ElementType="Text" FriendlyName="'Group'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='4' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='l t rowhd' aaname='Group' check:innerText='Group' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASUAAAAgCAYAAABU3W5wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHwSURBVHhe7drRbYMwGEXh7sRArEHGIFNErBCJCdjJbQIX29ipcfuQ39Gx9D3UYPJ2ZFO+XDCWZQGAtyJKAEyJosRgMBjvHuyUAJigBhElACaoQUQJgAlqEFECYIIaRJQAmKAGESUAJqhBRAmACWoQUQJgghpUEaXJDV3nukjvxnvuXgCoowadi9JtOMQo1l/n/DoAOEkNKkfpPro+G5/Zjb3CNLgpXAMAldSgYpTma7+G5zKl15/Bio9w02UN1XD1MRtu67X9WXJ45r52uz9coyD6v6cgiuzWgNapQcUo5ULxG93vrdFK5zf96ObD2jNRyiFMQLvUoEKU/BEtFwrP75b2+ASxCY+A/jn+xbnm6qLkj4y5OQBtUYP+tFM6E6Vo16IX5Yfj2v6cbb4mSvGuSIHjv4FAq9Sg/71T2ndSaZTCsNRGKQzOcY4oAZ9JDSpGKTx6vYxKKUqVxzf/O/6eY5Sio9r+yQLHN6BValA5Sg+F75RKL6vD+USw1gcnlUbp9T0A2qMGnYvSU/hdkqTHpVdRekiCkjkSRvH6Cda0rckd38J7CRLQNjWoIko2hFHKXQfQJjWIKAEwQQ0iSgBMUIOaixKAz6QGESUAJqhBRAmACWoQUQJgghpElACYoAZFUWIwGIx3D3ZKAExYG7S4b4vYV7OwqYQwAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>

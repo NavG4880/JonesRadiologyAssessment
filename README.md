@@ -1,7 +1,7 @@
 Jones Radiology Assessment:
 ==========================
 
-Description: To extract the data from public website and create a meaningful CSv with details.
+Description: To extract the data from public website and create a meaningful CSV file with details.
 
 
 
